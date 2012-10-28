@@ -1,3 +1,13 @@
+Crush + Lovely's Fork of Heroku's Ruby Buildpack
+================================================
+
+In addition to everything provided by default in Heroku's buildpack, this fork provides support for:
+
+* Jekyll
+* Middleman
+
+Both of these site types compiled and then served by Rack by default. This buildpack can also be used in conjunction with our Nginx buildpack, in which case the compiled site will be served by Nginx instead of Rack.
+
 Heroku buildpack: Ruby
 ======================
 
